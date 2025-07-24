@@ -64,10 +64,6 @@ router.post('/product', verifyToken, recaptchaMiddleware, async(req, res) => {
 
 
 
-
-
-
-
 // Delete Product
 router.delete('/product/:id', verifyToken, async (req, res, next) => {
     try {
@@ -98,32 +94,6 @@ router.delete('/product/:id', verifyToken, async (req, res, next) => {
         });
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
