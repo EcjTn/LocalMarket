@@ -1,6 +1,6 @@
 # 🛒 Local Marketplace Backend
 
-This is an **ongoing** backend project for a local marketplace, built using **Express.js** and **PostgreSQL**.
+This is an **ongoing** backend project for a local marketplace, built using **Express.js**
 
 ## 🔐 Features
 
