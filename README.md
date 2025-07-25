@@ -6,7 +6,7 @@ env guide:
 JWT_SECRET=''
 DB_USERNAME=''
 DB_PASSWORD=''
-DB_NAME='Linker'
+DB_NAME=''
 RECAPTCHA_SECRET_KEY=''
 
 ```
