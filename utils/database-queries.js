@@ -38,7 +38,7 @@ function showShop() {
     SELECT username, product_name, price, star
     FROM usertable INNER JOIN products
     ON usertable.id = products.seller_id
-    ORDER BY star DESC
+    ORDER BY RANDOM()
     LIMIT 10
     `
     return pool.query(query)

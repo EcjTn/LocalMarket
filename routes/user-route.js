@@ -6,9 +6,6 @@ import { showShop } from "../utils/database-queries.js"
 const router = Router()
 
 
-
-
-
 router.get('/profile', verifyToken, (req, res) => {
     res.send(req.userInfo)
 })

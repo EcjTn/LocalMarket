@@ -6,7 +6,7 @@ const ProductSchema = Joi.object({
 })
 
 function validateProduct(product) {
-    return ProductSchema.validateAsync(product, { abortEarly: false });
+    return ProductSchema.validateAsync(product);
 }
 
 export default validateProduct;

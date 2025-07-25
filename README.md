@@ -1,4 +1,4 @@
-# 🛒 Local Marketplace Backend
+# 🛒 Very Simple Local Marketplace Backend
 
 This is an **ongoing** backend project for a local marketplace, built using **Express.js**
 

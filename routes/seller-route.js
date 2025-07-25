@@ -40,7 +40,7 @@ router.post('/product', verifyToken, recaptchaMiddleware, async(req, res) => {
             return res.status(403).json({message: "You are not authorized to add products"})
         }
 
-        // passed all checks, validate product data
+        // passed role check, validate product data
         const isValid = await validateProduct(req.body)
         if(!isValid) return res.status(400).json({message: "Invalid product data"})
         
