@@ -1,6 +1,6 @@
 # 🛒 Very Simple Local Marketplace Backend
 
-This is an **ongoing** backend project for a local marketplace, built using **Express.js**
+Built using **Express.js**
 
 ## 🔐 Features
 
@@ -14,8 +14,7 @@ This is an **ongoing** backend project for a local marketplace, built using **Ex
 - Simple one-page **HTML form** to test registration process with recaptcha
 
 ## 📌 Notes
-
-This project is still being worked on.  
+  
 I'll try to update it when I have free time.
 
 
